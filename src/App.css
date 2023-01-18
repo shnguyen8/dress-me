@@ -24,7 +24,7 @@
 /* } */
 
 .background-img {
-  background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+  background-image: url("https://img.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_1017-14710.jpg?w=740&t=st=1673049270~exp=1673049870~hmac=4dd4b1b005e5b69a6611b800de131b8f7e5c5a01cd4b2a348ae07a4f956cb8b6");
   top: -20px;
   left: -20px;
   right: -40px;
@@ -35,6 +35,47 @@
   background-position: center;
   z-index: 0;
 }
+
+/* .sidenav {
+  background-color: #d2e9c0;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+} */
+
+.login-img {
+  background: url("https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHB1cHB5fGVufDB8fDB8fA%3D%3D");
+  height: 100%;
+  overflow:hidden;
+  padding-top: 0px;
+  width: 45%;
+  z-index: 1;
+  top:0;
+  left:0;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 0px;
+}
+.login-form {
+  margin: 0 auto;
+}
+
+div.main {
+  margin-left: 45%;
+  background-color: #DAE2D4;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.inner-main { margin: auto; margin-top: 15vh }
+
 
 
 .App-link {
